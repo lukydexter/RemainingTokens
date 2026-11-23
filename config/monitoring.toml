@@ -1,0 +1,12 @@
+[monitoring]
+analytics = true
+log_enabled = true
+log_timing = true
+log_file_path = "logs/monitoring.log"
+log_include_values = true
+log_max_value_length = 200
+payload_log_enabled = true
+payload_log_file_path = "logs/payload.log"
+logger_name = "token_fitness.monitoring"
+log_level = "INFO"
+cache_size=30
